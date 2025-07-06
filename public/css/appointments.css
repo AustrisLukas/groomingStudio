@@ -31,3 +31,10 @@ html, body {
     background-color: rgba(0, 123, 255, 0.1); /* Light blue */
     transition: background-color 0.2s ease;
   }
+
+  .fc-col-header-cell,
+  .fc-timegrid-axis,
+  .fc-day-disabled {
+    background-color: #2f2f2f; /* or match your calendar background */
+  }
+

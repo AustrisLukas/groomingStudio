@@ -11,11 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fancyapps/ui": "^6.0.7",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "fullcalendar": "^6.1.17",
     "fullcalendar-scheduler": "^6.1.17",
     "nodemon": "^3.1.10",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "photoswipe": "^5.4.4"
   }
 }
