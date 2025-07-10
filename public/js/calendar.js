@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         calendar.unselect();
         return;
       } else {
+        registerBooking(info);
         const title = prompt("Enter Appointment Title:");
         if (title) {
           calendar.addEvent({
@@ -75,3 +76,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   calendar.render();
 });
+
+function registerBooking(info) {
+  //Trigger modal to open
+  const modalElement = document.getElementById("myModal");
+  const myModal = new bootstrap.Modal(modalElement);
+  myModal.show();
+}
