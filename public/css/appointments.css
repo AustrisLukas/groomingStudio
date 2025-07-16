@@ -13,28 +13,31 @@ html, body {
     background-repeat: no-repeat;
   }
 
+
+
+
   #calendar {
     background-color: rgba(44, 44, 44, 0.85);
     border-radius: 10px;
     padding: 10px;
   }
-
-
 .fc-theme-standard td,
 .fc-theme-standard th {
   border-color: #818181 !important; 
   border-width: 1px;
 }
 
-
-  .fc-timegrid-slot:hover {
-    background-color: rgba(0, 123, 255, 0.1); /* Light blue */
+.fc-timegrid-slot:hover {
+    background-color: rgba(0, 123, 255, 0.1); 
     transition: background-color 0.2s ease;
-  }
+}
 
   .fc-col-header-cell,
   .fc-timegrid-axis,
   .fc-day-disabled {
-    background-color: #2f2f2f; /* or match your calendar background */
+    background-color: #2f2f2f; 
   }
+
+
+  
 

@@ -4,6 +4,7 @@ const router = require('./routes.js');
 const path = require('path');
 
 
+
 const app = express();
 app.use('/', router);
 
@@ -14,6 +15,7 @@ app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, '/public')));
 app.use('/fancybox', express.static(path.join(__dirname, 'node_modules/@fancyapps/ui')));
 app.use('/fancybox', express.static(path.join(__dirname, 'node_modules/@fancyapps/ui/dist')));
+
 
 
 

@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding-top: 27px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .background {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.798), rgb(255, 255, 255)),
+    url('../images/main_background.jpg');
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+  }
+
+  h3 {
+    color: #ff9292 !important
+  }
+
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+
+
+
+  
+

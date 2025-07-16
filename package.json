@@ -12,6 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "@fancyapps/ui": "^6.0.7",
+    "@fullcalendar/bootstrap5": "^6.1.18",
+    "@fullcalendar/core": "^6.1.18",
+    "bootstrap": "^5.3.7",
+    "bootstrap-icons": "^1.13.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "fullcalendar": "^6.1.17",
