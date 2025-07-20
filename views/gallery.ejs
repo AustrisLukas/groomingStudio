@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandra's Dog Grooming Studio</title>
+  <link href="./css/gallery.css" rel="stylesheet" >
+  <link href="./css/custom.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <link rel="stylesheet" href="/fancybox/fancybox.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Lato&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- NAV-BAR -->
+    <header>
+      <nav class=" p-0 navbar navbar-expand-lg bg-light navbar text-light fixed-top">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="/"><img src="./images/navbar_brand.png" alt="" height="60"
+                      class="d-inline-block ">&nbsp;&nbsp;</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                      <a class="nav-link" aria-current="page" href="/">Home</a>
+                      <a class="nav-link " href="/services">Services</a>
+                      <a class="nav-link" href="/appointments">Appointments</a>
+                      <a class="nav-link active" href="/gallery">Gallery</a>
+                  </div>
+              </div>
+          </div>
+      </nav>
+  </header>
+  <main>
+    <!--GALLERY-->
+    <div class="pt-4 container">
+        <div class="row justify-content-center">
+          <div class="col-12 p-3">
+            <h2>Our Gallery</h2>
+            <p>Take a look behind the scenes at our proudest moments! From award-winning grooming competitions and dog shows to our beloved clients looking their best — each photo captures the care and dedication we put into every groom.</p>
+
+          </div>
+            <div class="col-md-8 col-sm-3 text-center album pt-3 mb-5">
+              <% for (i = 1; i <=15; i++) { %>
+                <a href="./images/gallery/<%=i%>.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+                  <img src="./images/gallery/<%=i%>.jpeg"  class="rounded shadow" style="height: 100%; max-height: 180px;" />
+              </a>
+                <% } %>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-4 mt-0">
+      <div class="container">
+        <p class="mb-1">&copy; 2025 Sandra's Dog Grooming Studio</p>
+      </div>
+    </footer>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+<script src="/fancybox/fancybox.umd.js"></script>
+<script>
+    // Optional: Automatically bind all elements with data-fancybox attribute
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        mainStyle: {
+    "--f-toolbar-padding": "16px 32px",
+    "--f-toolbar-gap": "8px",
+    "--f-button-border-radius": "50%",
+    "--f-thumb-width": "82px",
+    "--f-thumb-height": "82px",
+    "--f-thumb-opacity": "0.5",
+    "--f-thumb-hover-opacity": "1",
+    "--f-thumb-selected-opacity": "1",
+  },
+  Carousel: {
+    Toolbar: {
+      display: {
+        right: ["toggleFull", "close"],
+      },
+    },
+  },
+    });
+  </script>
+
+
+
+
+
+</html>

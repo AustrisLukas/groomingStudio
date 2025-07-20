@@ -4,16 +4,7 @@ html, body {
   background-color: rgb(255, 255, 255);
 }
 
-/* Background image
-.background {
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.798), rgb(33, 37, 41)),
-  url('../images/main_background.jpg');
 
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-*/
 .custom-img {
   height: 200px;
   object-fit: cover;
@@ -37,12 +28,13 @@ html, body {
 }
 
 .services {
-  background-color: rgba(144, 146, 145, 0.609);
+  background-color: rgba(244, 241, 241, 0.609);
   border-radius: 1%;
 
 }
+
 .services > div > div > h3 {
-  color: rgb(34, 34, 34);
+  color: #ff9292 !important
 }
 
 h1, h2, h3 {
@@ -51,3 +43,4 @@ h1, h2, h3 {
 body {
   font-family: 'Lato', sans-serif;
 }
+

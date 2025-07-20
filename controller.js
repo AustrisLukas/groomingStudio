@@ -13,7 +13,7 @@ exports.renderAppointments = async (req,res) => {
 
 exports.renderGallery = async (req,res) => {
     console.log('App: Processing renderGallery');
-    res.sendFile(path.join(__dirname, 'public', 'gallery.html'));
+    res.render('gallery');
     
 }
 

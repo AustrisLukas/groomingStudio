@@ -1,0 +1,17 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won’t be available)
+
+$accordion-button-active-bg:#ff9292;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+.btn-custom {
+    @include button-variant(#ff9292, darken(#ff9292, 10%));
+  }
+
