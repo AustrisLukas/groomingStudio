@@ -1,2 +1,2 @@
 # groomingStudio
-Website for Sandra's Dog Grooming studio.
+Express JS Website for Sandra's Dog Grooming shop.
