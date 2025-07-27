@@ -21,6 +21,7 @@
     "express": "^5.1.0",
     "fullcalendar": "^6.1.17",
     "fullcalendar-scheduler": "^6.1.17",
+    "nodemailer": "^7.0.5",
     "nodemon": "^3.1.10",
     "path": "^0.12.7",
     "photoswipe": "^5.4.4"

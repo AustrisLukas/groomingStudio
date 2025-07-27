@@ -9,6 +9,7 @@ router.get('/appointments', controller.renderAppointments);
 router.get('/', controller.renderHome);
 
 // POST routes
+router.post('/newinquiry', controller.sendInquiry);
 
 
 module.exports = router;
