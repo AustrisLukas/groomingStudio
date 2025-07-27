@@ -1,13 +1,14 @@
 const nodemailer = require("nodemailer");
+require('dotenv').config();
 
 //INITIALIZE TRANSPORTER OBBJECT
 const transporter = nodemailer.createTransport({
-    host: "smtp.zoho.eu",
-    port: 587,
+    host: process.env.SMTP_HOST,
+    port: process.env.SMTP_PORT,
     secure: false,
     auth: {
-        user: 'info@sandrasdoggrooming.live',
-        pass: '14qmvGYUXQAa',
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
     },
 });
 
