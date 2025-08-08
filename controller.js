@@ -9,8 +9,8 @@ exports.renderHome = async (req, res) => {
 exports.renderAppointments = async (req, res) => {
     console.log("App: Processing renderAppointments");
 
+    //VARIABLE TO CHECK URL FOR /?booked=true
     const booked = req.query.booked === 'true';
-    console.log(booked);
 
     res.render('appointments',{
         booked: booked

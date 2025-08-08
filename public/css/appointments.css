@@ -1,43 +1,43 @@
-html, body {
-    margin: 0;
-    padding-top: 27px;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .background {
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.798), rgb(33, 37, 41)),
-    url('../images/main_background.jpg');
-  
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+html,
+body {
+  margin: 0;
+  padding-top: 27px;
+  background-color: rgb(255, 255, 255);
+}
 
+.background {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.798), rgb(33, 37, 41)), url("../images/main_background.jpg");
 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-
-  #calendar {
-    background-color: rgba(44, 44, 44, 0.85);
-    border-radius: 10px;
-    padding: 10px;
-  }
+#calendar {
+  background-color: rgba(44, 44, 44, 0.85);
+  border-radius: 10px;
+  padding: 10px;
+}
 .fc-theme-standard td,
 .fc-theme-standard th {
-  border-color: #818181 !important; 
+  border-color: #818181 !important;
   border-width: 1px;
 }
 
 .fc-timegrid-slot:hover {
-    background-color: rgba(0, 123, 255, 0.1); 
-    transition: background-color 0.2s ease;
+  background-color: rgba(0, 123, 255, 0.1);
+  transition: background-color 0.2s ease;
 }
 
-  .fc-col-header-cell,
-  .fc-timegrid-axis,
-  .fc-day-disabled {
-    background-color: #2f2f2f; 
-  }
+.fc-col-header-cell,
+.fc-timegrid-axis,
+.fc-day-disabled {
+  background-color: #2f2f2f;
+}
 
-
-  
-
+footer {
+  font-size: 0.8rem;
+}
+.copy {
+  font-size: 0.6rem;
+}
